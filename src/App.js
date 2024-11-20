@@ -34,12 +34,17 @@ const HomePage = () => (
           <h1 className="text-4xl font-bold mb-6">مفرداتي اليومية</h1>
           <p className="text-xl mb-8">سواء كنت بمستوى مبتدىء أو متقدم في اللغة الانجليزية تطبيقنا يجمع لك المتعة والفائدة على شكل تحدي يومي يمكنك عن طريقه تعلم المهارات الاساسية في اللغة (الاستماع، القراءة ، التحدث).</p>
           <div className="flex justify-center space-x-4 rtl:space-x-reverse">
-            <button className="text-emerald-600 px-4 py-1 rounded-lg flex items-center">
-              <img src={image1} alt='app-store' width="200" height="30" />
-            </button>
-            <button className="text-emerald-600 px-6 py-2 rounded-lg flex items-center">
-              <img src={image2} alt='google-play' width="200" height="50" />
-            </button>
+          <button className="text-emerald-600 px-4 py-1 rounded-lg flex items-center">
+  <a href="https://apps.apple.com/us/app/%D9%85%D9%81%D8%B1%D8%AF%D8%A7%D8%AA%D9%8A-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/id6737282822" target="_blank" rel="noopener noreferrer">
+    <img src={image1} alt='app-store' width="200" height="30" />
+  </a>  
+</button>
+
+<button className="text-emerald-600 px-4 py-1 rounded-lg flex items-center">
+  <a href="https://play.google.com/store/apps/details?id=live.mydailywords.app" target="_blank" rel="noopener noreferrer">
+    <img src={image2} alt='app-store' width="200" height="30" />
+  </a>  
+</button>
           </div>
         </div>
       </div>
@@ -50,7 +55,7 @@ const HomePage = () => (
           <div className="text-center p-6 bg-white rounded-lg shadow-md">
             <div className="mb-4">🎯</div>
             <h3 className="text-xl font-semibold mb-2">تحدي يومي</h3>
-            <p className="text-gray-600">تعلم كلمة جديدة كل يوم مع تمارين تفاعلية</p>
+            <p className="text-gray-600">تعلم أربع كلمات جديدة كل يوم مع تمارين تفاعلية</p>
           </div>
           <div className="text-center p-6 bg-white rounded-lg shadow-md">
             <div className="mb-4">🎧</div>
